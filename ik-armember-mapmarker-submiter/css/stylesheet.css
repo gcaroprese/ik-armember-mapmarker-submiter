@@ -1,0 +1,117 @@
+/* 
+Armember to Mapmarker - Main CSS
+Created: 05/12/2021
+Last Update: 18/01/2022
+Author: Gabriel Caroprese
+*/
+#ik_armember_map_add_licenses .ik_armember_license_fields{
+    padding: 20px 20px 30px;
+    background: #ddd;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 25px 0;
+}
+.ik_armember_license_fields ul {
+    margin-bottom: 20px;
+}
+.ik_armember_map_css_log_data {
+    display: block;
+}
+#ik_armember_existing_licenses th .sorting-indicator, #ik_armember_existing_licenses th.sorted .sorting-indicator {
+    visibility: visible! important;
+    min-width: 20px;
+}
+#ik_armember_existing_licenses th .sorting {
+    cursor: pointer;
+}
+#ik_armember_existing_licenses th.sorted{
+    background: #dddd;
+}
+#ik_armember_existing_licenses .orderitem .sorting{
+    display: flex;
+    padding: 0 4px;
+    cursor: pointer;
+    color: #2271b1;
+}
+#ik_armember_existing_licenses .data_licenses_list{
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    margin-left: 20px;
+}
+#ik_armember_map_add_licenses .ik_armember_license_fields input{
+    width: 210px;
+}
+table#ik_armember_existing_licenses{
+    width: 100%;
+}
+#ik_armember_existing_licenses thead tr, #ik_armember_existing_licenses tfoot tr{
+    background: #fff;
+}
+#ik_armember_existing_licenses tbody tr{
+    background-color: #f6f7f7;
+}
+
+#ik_armember_existing_licenses th, #ik_armember_existing_licenses td{
+    padding: 11px! important;
+    text-align: center;
+}
+#ik_armember_existing_licenses th, #ik_armember_existing_licenses td{
+    padding: 11px! important;
+    text-align: center;
+}
+#ik_armember_existing_licenses tr td {
+    border-left: 1px solid #fff;
+}
+#ik_armember_existing_licenses tr td:first-child {
+    border-left-width: 0px;
+}
+#ik_armember_existing_licenses tbody tr:nth-child(2n+1) {
+    background: #eee;
+}
+#ik_armember_existing_licenses tbody tr:nth-child(2n+2) {
+    background: #ddd;
+}
+.ik_armember_pages{
+    display: block;
+    margin: 20px 0;
+}
+.ik_armember_pages a {
+    padding: 5px 12px;
+    margin: 3px;
+    text-decoration: none;
+    background: #fff;
+    font-size: 15px;
+}
+.ik_armember_pages a.actual_page {
+    background: #2271b1;
+    color: #fff;
+}
+#ik_armember_filter_box{
+    display: flow-root;
+    position: relative;
+    top: -14px;
+}
+@media (min-width: 980px){
+    #ik_armember_existing_licenses, #ik_armember_map_add_licenses{
+        float: left;
+        padding: 25px;
+    }
+    #ik_armember_map_add_licenses{
+        max-width: 400px;
+    }
+    #ik_armember_existing_licenses{
+        max-width: 55%;
+    }
+    #ik_armember_existing_licenses{
+        margin-top: 15px;
+    }
+    #ik_armember_existing_licenses tr th:last-child, #ik_armember_existing_licenses tr td:last-child{
+        min-width: 260px;
+    }
+}
+@media (max-width: 980px){
+    #ik_armember_existing_licenses{
+        margin-top: 70px;
+    }
+}
